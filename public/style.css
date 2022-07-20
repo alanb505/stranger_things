@@ -1,0 +1,77 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+input{
+    padding: 5px;
+    margin: 10px;
+}
+
+
+#des{
+    background-color: rgb(19, 85, 85);
+    display: flex;
+}
+
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+   color: rgb(205, 124, 230);
+   
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-nav-links{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.formGroup label{
+    display: block;
+    text-transform: capitalize;
+}
+
+form{
+    display: flex;
+}
+
+.form-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-end;
+}
+
+.posts{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.post-container{
+display: flex;
+flex-wrap: wrap;
+}
+
+.post-single{
+    flex: 1 1 50%;
+    height: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content{
+    flex: 1 0;
+}
+
+.card-content div{
+    margin-bottom: 10px;
+}
