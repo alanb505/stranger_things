@@ -1,77 +1,94 @@
-*{
-    font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
-input{
-    padding: 5px;
-    margin: 10px;
+body {
+  background: rgba(0, 212, 255, 1) 100%;
 }
 
-
-#des{
-    background-color: rgb(19, 85, 85);
-    display: flex;
+input {
+  padding: 5px;
+  margin: 10px;
+  background-color: #eee;
+  color: black;
 }
 
-
-a{
-    text-decoration: none;
-    padding: 10px;
-}
-a:hover{
-   color: rgb(205, 124, 230);
-   
+#des {
+  background-color: rgb(19, 85, 85);
+  display: flex;
 }
 
-.flex-nav{
-    display: flex;
-    justify-content: space-between;
+a {
+  text-decoration: none;
+  padding: 10px;
+}
+a:hover {
+  color: rgb(205, 124, 230);
+  font-weight: 500;
 }
 
-.flex-nav-links{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
+.flex-nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-.formGroup label{
-    display: block;
-    text-transform: capitalize;
+.flex-nav-links {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
-form{
-    display: flex;
+.formGroup label {
+  display: block;
+  text-transform: capitalize;
 }
 
-.form-button{
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    align-items: flex-end;
+form {
+  display: flex;  
 }
 
-.posts{
-    max-width: 1000px;
-    margin: auto;
+.form-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: flex-end;
+}
+.form-button :hover {
+  background-color: rgb(189, 189, 189);
 }
 
-.post-container{
-display: flex;
-flex-wrap: wrap;
+.posts {
+  max-width: 1000px;
+  margin: auto;
 }
 
-.post-single{
-    flex: 1 1 50%;
-    height: 250px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.card-content{
-    flex: 1 0;
+.post-single {
+  flex: 1 1 50%;
+  height: 250px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.card-content div{
-    margin-bottom: 10px;
+.card-content {
+  flex: 1 0;
+}
+
+.card-content div {
+  margin-bottom: 10px;
+}
+
+.commentB {
+  margin-bottom: min(2vw, 10px);
+  background-color: #eee;
+  color: black;
+}
+
+.commentB:active {
+  background-color: aliceblue;
 }

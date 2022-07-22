@@ -19,7 +19,7 @@ const Comment = (props)=> {
     return (
     <form onSubmit={onSubmit}>
         <input required name="message" type= "text" ></input>
-        <button>comment</button>
+        <button className="commentB">comment</button>
     </form>
     )
 }
